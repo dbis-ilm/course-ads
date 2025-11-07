@@ -1,0 +1,181 @@
+{
+    "task-2a-1": {
+        "ordered": false,
+        "equals": [
+            [1],
+            [3],
+            [5],
+            [7],
+            [9]
+        ]
+    },
+    "task-2a-2": {
+        "ordered": false,
+        "attributes": [
+            "CNo",
+            "Name"
+        ],
+        "equals": [
+            [109, "Jahn, E"]
+        ]
+    },
+    "task-2a-3": {
+        "ordered": false,
+        "equals": [
+            [20]
+        ]
+    },
+    "task-2b-1": {
+        "ordered": false,
+        "attributes": [
+            "Name"
+        ],
+        "equals": [
+            ["Müller, F"],
+            ["Abel, M"],
+            ["Schulz, R"],
+            ["Jahn, E"],
+            ["Meier, T"]
+        ]
+    },
+    "task-2b-2": {
+        "ordered": false,
+        "attributes": [
+            "RNo"
+        ],
+        "equals": [
+            [1],
+            [3],
+            [7],
+            [17]
+        ]
+    },
+    "task-2b-3": {
+        "ordered": false,
+        "attributes": [
+            "Description"
+        ],
+        "equals": [
+            ["Cake"],
+            ["Orange"],
+            ["Butter"]
+        ]
+    },
+    "task-2b-4": {
+        "ordered": false,
+        "attributes": [
+            "Name",
+            "Description"
+        ],
+        "equals": [
+            ["Abel, M", "Butter"],
+            ["Abel, M", "Cake"],
+            ["Abel, M", "Orange"],
+            ["Müller, F", "Butter"],
+            ["Müller, F", "Cake"],
+            ["Müller, F", "Milk"],
+            ["Müller, F", "Orange"],
+            ["Schulz, R", "Orange"]
+        ]
+    },
+    "task-2b-5": {
+        "ordered": false,
+        "attributes": [
+            "CNo",
+            "Name"
+        ],
+        "equals": [
+            [109, "Jahn, E"]
+        ]
+    },
+    "task-2b-6": {
+        "ordered": false,
+        "attributes": [
+            "SID",
+            "Name",
+            "Address",
+            "count(PNo)"
+        ],
+        "equals": [
+            [24, "Tegut", "Goethepassage", 2],
+            [20, "Rewe", "Mühlgraben", 0],
+            [27, "Aldi", "Hüttenholz", 3],
+            [23, "Netto", "Herderstrasse", 2]
+        ]
+    },
+    "task-2b-7": {
+        "ordered": false,
+        "attributes": [
+            "SID",
+            "Name",
+            "Date",
+            "Time"
+        ],
+        "equals": [
+            [23, "Netto", "2025-09-27", "08:13:00"]
+        ]
+    },
+    "task-2c-1": {
+        "ordered": false,
+        "attributes": [
+            "CNo",
+            "Name"
+        ],
+        "equals": [
+            [123, "Müller, F"],
+            [403, "Meier, T"],
+            [456, "Abel, M"],
+            [789, "Schulz, R"]
+        ]
+    },
+    "task-2c-2": {
+        "ordered": false,
+        "attributes": [
+            "RNo",
+            "SID",
+            "Date",
+            "Time",
+            "CNo"
+        ],
+        "equals": [
+            [1, 23, "2025-09-27", "08:13:00", 456],
+            [3, 20, "2025-09-30", "09:59:00", 123],
+            [5, 24, "2025-10-18", "12:07:00", 789],
+            [7, 27, "2025-10-19", "10:43:00", 456],
+            [9, 27, "2025-10-19", "21:01:00", 123],
+            [17, 20, "2025-11-03", "11:34:00", 403]
+        ]
+    },
+    "task-2d-1": {
+        "ordered": false,
+        "attributes": [
+            "Name"
+        ],
+        "equals": [
+            ["Jahn, E"]
+        ]
+    },
+    "task-2d-2": {
+        "ordered": false,
+        "attributes": [
+            "RNo"
+        ],
+        "equals": []
+    },
+    "task-2d-3": {
+        "ordered": false,
+        "attributes": [
+            "Name",
+            "RNo"
+        ],
+        "equals": [
+            ["Abel, M", 1],
+            ["Abel, M", 7],
+            ["Jahn, E", null],
+            ["Meier, T", 17],
+            ["Müller, F", 3],
+            ["Müller, F", 9],
+            ["Schulz, R", 5]
+        ]
+    }
+}
