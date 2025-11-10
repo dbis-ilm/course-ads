@@ -16,7 +16,7 @@
             "Name"
         ],
         "equals": [
-            [109, "Jahn, E"]
+            [109, "Jahn, E."]
         ]
     },
     "task-2a-3": {
@@ -31,11 +31,11 @@
             "Name"
         ],
         "equals": [
-            ["Müller, F"],
-            ["Abel, M"],
-            ["Schulz, R"],
-            ["Jahn, E"],
-            ["Meier, T"]
+            ["Müller, F."],
+            ["Abel, M."],
+            ["Schulz, R."],
+            ["Jahn, E."],
+            ["Meier, T."]
         ]
     },
     "task-2b-2": {
@@ -68,14 +68,14 @@
             "Description"
         ],
         "equals": [
-            ["Abel, M", "Butter"],
-            ["Abel, M", "Cake"],
-            ["Abel, M", "Orange"],
-            ["Müller, F", "Butter"],
-            ["Müller, F", "Cake"],
-            ["Müller, F", "Milk"],
-            ["Müller, F", "Orange"],
-            ["Schulz, R", "Orange"]
+            ["Abel, M.", "Butter"],
+            ["Abel, M.", "Cake"],
+            ["Abel, M.", "Orange"],
+            ["Müller, F.", "Butter"],
+            ["Müller, F.", "Cake"],
+            ["Müller, F.", "Milk"],
+            ["Müller, F.", "Orange"],
+            ["Schulz, R.", "Orange"]
         ]
     },
     "task-2b-5": {
@@ -85,7 +85,7 @@
             "Name"
         ],
         "equals": [
-            [109, "Jahn, E"]
+            [109, "Jahn, E."]
         ]
     },
     "task-2b-6": {
@@ -122,10 +122,10 @@
             "Name"
         ],
         "equals": [
-            [123, "Müller, F"],
-            [403, "Meier, T"],
-            [456, "Abel, M"],
-            [789, "Schulz, R"]
+            [123, "Müller, F."],
+            [403, "Meier, T."],
+            [456, "Abel, M."],
+            [789, "Schulz, R."]
         ]
     },
     "task-2c-2": {
@@ -152,7 +152,7 @@
             "Name"
         ],
         "equals": [
-            ["Jahn, E"]
+            ["Jahn, E."]
         ]
     },
     "task-2d-2": {
@@ -169,13 +169,13 @@
             "RNo"
         ],
         "equals": [
-            ["Abel, M", 1],
-            ["Abel, M", 7],
-            ["Jahn, E", null],
-            ["Meier, T", 17],
-            ["Müller, F", 3],
-            ["Müller, F", 9],
-            ["Schulz, R", 5]
+            ["Abel, M.", 1],
+            ["Abel, M.", 7],
+            ["Jahn, E.", null],
+            ["Meier, T.", 17],
+            ["Müller, F.", 3],
+            ["Müller, F.", 9],
+            ["Schulz, R.", 5]
         ]
     }
 }
