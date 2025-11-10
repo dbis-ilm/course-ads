@@ -1,0 +1,193 @@
+{
+    "task-1-1": {
+        "ordered": false,
+        "attributes": [
+            "Name",
+            "Address",
+            "Phone"
+        ],
+        "equals": [
+            ["AeroSense GmbH", "Lindwurmweg 87, 80337 München", "+49 89 123456"],
+            ["Nordic Metrics AG", "Fjordweg 12, 24103 Kiel", "+49 431 98765"],
+            ["RheinTech SE", "Rheinallee 5, 50678 Köln", "+49 221 445566"]
+        ]
+    },
+    "task-1-2": {
+        "ordered": false,
+        "attributes": [
+            "Id",
+            "Name",
+            "Type",
+            "MName"
+        ],
+        "equals": [
+            [101, "AS-Temp-01", "temperature", "AeroSense GmbH"],
+            [102, "NM-Hum-07", "humidity", "Nordic Metrics AG"],
+            [103, "RT-Press-3", "pressure", "RheinTech SE"]
+        ]
+    },
+    "task-1-3": {
+        "ordered": false,
+        "attributes": [
+            "Id",
+            "Message"
+        ],
+        "equals": [
+            [1, "Temperature exceeds threshold"],
+            [2, "Humidity below safe range"]
+        ]
+    },
+    "task-1-4": {
+        "ordered": false,
+        "attributes": [
+            "SId",
+            "Time",
+            "Value",
+            "Unit"
+        ],
+        "equals": [
+            [101, "2025-11-01 08:30:00", 26.4, "°C"],
+            [101, "2025-11-01 09:00:00", 31.1, "°C"],
+            [102, "2025-11-01 08:30:00", 35.0, "%"],
+            [102, "2025-11-01 09:00:00", 28.2, "%"],
+            [103, "2025-11-01 08:30:00", 1014.6, "hPa"]
+        ]
+    },
+    "task-1-5": {
+        "ordered": false,
+        "attributes": [
+            "OSId",
+            "OTime",
+            "WId"
+        ],
+        "equals": [
+            [101, "2025-11-01 09:00:00", 1],
+            [102, "2025-11-01 09:00:00", 2]
+        ]
+    },
+    "task-2-1": {
+        "ordered": false,
+        "attributes": [
+            "MatNr",
+            "Name",
+            "Email"
+        ],
+        "equals": [
+            [62001, "Alexander Becker", "alexander.becker@tu-ilmenau.de"],
+            [62002, "Ben Fischer", "ben.fischer@tu-ilmenau.de"],
+            [62003, "Clara Neumann", "clara.neumann@tu-ilmenau.de"],
+            [62004, "Diana Weber", "diana.weber@tu-ilmenau.de"]
+        ]
+    },
+    "task-2-2": {
+        "ordered": false,
+        "attributes": [
+            "Id",
+            "Name"
+        ],
+        "equals": [
+            [1, "Databases"],
+            [2, "Algorithms"],
+            [3, "Machine Learning"]
+        ]
+    },
+    "task-2-3": {
+        "ordered": false,
+        "attributes": [
+            "Id",
+            "SId",
+            "Credits"
+        ],
+        "equals": [
+            [1, 1, 6],
+            [2, 2, 5],
+            [3, 3, 6]
+        ]
+    },
+    "task-2-4": {
+        "ordered": false,
+        "attributes": [
+            "SMatNr",
+            "CId",
+            "Grade"
+        ],
+        "equals": [
+            [62001, 1, 2.0],
+            [62001, 2, 1.7],
+            [62001, 3, 5.0],
+            [62002, 1, 1.3],
+            [62002, 2, 2.0],
+            [62002, 3, null],
+            [62003, 3, 1.0],
+            [62003, 2, 2.3],
+            [62004, 2, 4.0],
+            [62004, 1, 2.7]
+        ]
+    },
+    "task-2a": {
+        "ordered": false,
+        "attributes": [
+            "Email"
+        ],
+        "equals": [
+            ["ben.fischer@tu-ilmenau.de"]
+        ]
+    },
+    "task-2b": {
+        "ordered": false,
+        "attributes": [
+            "Email"
+        ],
+        "equals": []
+    },
+    "task-2c": {
+        "ordered": false,
+        "attributes": [
+            "Grade"
+        ],
+        "equals": [
+            [1.0],
+            [2.3]
+        ]
+    },
+    "task-2d": {
+        "ordered": false,
+        "attributes": [
+            "Email",
+            "Grade"
+        ],
+        "equals": [
+            ["ben.fischer@tu-ilmenau.de", 1.3],
+            ["ben.fischer@tu-ilmenau.de", 2.0],
+            ["ben.fischer@tu-ilmenau.de", null]
+        ]
+    },
+    "task-2e": {
+        "ordered": false,
+        "equals": [
+            ["Diana Weber", "diana.weber@tu-ilmenau.de", "Databases", 2.7],
+            ["Diana Weber", "diana.weber@tu-ilmenau.de", "Algorithms", 4.0]
+        ]
+    },
+    "task-2f": {
+        "ordered": false,
+        "equals": [
+            [62002, 1.6181818181818182]
+        ]
+    },
+    "task-2g": {
+        "ordered": false,
+        "equals": [
+            ["Alexander Becker", 1.8636363636363635],
+            ["Diana Weber", 3.290909090909091],
+            ["Clara Neumann", 1.5909090909090908],
+            ["Ben Fischer", 1.6181818181818182]
+        ]
+    },
+    "task-2h": {
+        "ordered": false,
+        "equals": [
+            ["Clara Neumann", 1.5909090909090908]
+        ]
+    }
+}
